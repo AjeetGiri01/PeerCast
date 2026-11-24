@@ -24,7 +24,7 @@ export default function LandingPage() {
                         <Link to={"/home"}>Get Started</Link>
                     </div> */}
                     <div role="button">
-                        <a href="/home">Get Started</a>
+                        <a href="/auth">Get Started</a>
                     </div>
                 </div>
                 <div>
