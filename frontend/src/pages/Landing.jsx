@@ -17,8 +17,19 @@ export default function LandingPage() {
             </nav>
 
             <div className="landingMainContainer">
-                <div></div>
-                <div></div>
+                <div>
+                    <h1> <span style={{ color: 'orange' }}>Connect</span> with your loved Ones</h1>
+                    <p>Cover a distance by PeerCast</p>
+                    {/* <div role="button">
+                        <Link to={"/home"}>Get Started</Link>
+                    </div> */}
+                    <div role="button">
+                        <a href="/home">Get Started</a>
+                    </div>
+                </div>
+                <div>
+                    <img src="/mobile.png" alt="Mobile App" />
+                </div>
             </div>
 
         </div>
